@@ -4,8 +4,9 @@ body {
 }
 
 .header_div {
-    background-color: white;
-    color: red;
+    background-color: violet;
+    color: brown;
+    top: 0s;
 }
 
 .header_div img {
@@ -16,7 +17,7 @@ body {
     padding: 10px;
     border: 3px solid white;
     background-color: #ffd2c7;
-    margin-top: 15px;
+    margin-top: 150px;
     width: fit-content;
     height: fit-content;
 }
@@ -29,8 +30,13 @@ body {
 }
 
 .text_images_and_result button {
-    font-size: 16px;
+    font-size: 20px;
     width: 310px;
     border: 1px solid;
     box-shadow: 5px 5px 18px white;
+}
+
+.identify{
+    width: 200px;
+    height: 200px;
 }
