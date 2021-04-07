@@ -1,11 +1,10 @@
 body {
-    background-color: #F5DBDA;
-    font-family: 'Special Elite', cursive;
+    background-color: lightseagreen;
 }
 
 .header_div {
-    background-color: violet;
-    color: brown;
+    background-color: blue;
+    color: orange;
     top: 0s;
 }
 
@@ -15,28 +14,45 @@ body {
 
 .text_images_and_result {
     padding: 10px;
-    border: 3px solid white;
-    background-color: #ffd2c7;
-    margin-top: 150px;
-    width: fit-content;
-    height: fit-content;
+    border: 3px solid crimson;
+    background-color: lightseagreen;
 }
 
 .text_images_and_result label {
-    background-color: white;
+    background-color: crimson;
     width: 310px;
     padding: 10px;
-    box-shadow: 5px 5px 18px white;
+    box-shadow: 5px 5px 18px crimson;
 }
 
 .text_images_and_result button {
     font-size: 20px;
     width: 310px;
     border: 1px solid;
-    box-shadow: 5px 5px 18px white;
+    box-shadow: 5px 5px 18px crimson;
 }
 
-.identify{
-    width: 200px;
-    height: 200px;
+.final_result {
+    font-family: 'Zilla Slab Highlight',
+        cursive;
+        
+}
+
+.identify {
+    width: 400px;
+    height: 550px;
+}
+
+.mini_result {
+    font-family: 'Nunito', sans-serif;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    line-height: 3;
+    text-align: center;
 }
